@@ -14,7 +14,6 @@ fun main() {
     println("Difference: ${stopWatch.difference()}")
 }
 
-
 class StopWatch {
     private val clock: Clock = Clock.systemUTC() // construct a clock internally as StopWatch has control
 
@@ -44,4 +43,3 @@ class StopWatch {
             }
         }
 }
-
