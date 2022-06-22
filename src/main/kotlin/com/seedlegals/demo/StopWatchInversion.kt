@@ -15,7 +15,6 @@ fun main() {
     println("Difference: ${stopWatch.difference()}")
 }
 
-
 class StopWatchInversion(
     private val clock: Clock // Inject a clock that has control
 ) {
@@ -45,4 +44,3 @@ class StopWatchInversion(
             }
         }
 }
-

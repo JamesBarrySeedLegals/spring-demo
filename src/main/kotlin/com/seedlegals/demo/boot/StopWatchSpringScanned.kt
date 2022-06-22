@@ -9,7 +9,6 @@ import org.springframework.stereotype.Component
 import java.time.Clock
 import java.time.Instant
 
-
 @SpringBootApplication
 open class Application
 

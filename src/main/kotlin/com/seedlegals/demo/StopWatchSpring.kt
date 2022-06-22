@@ -30,7 +30,6 @@ open class StopWatchConfiguration {
     open fun stopWatchSpring(clock: Clock) = StopWatchSpring(clock)
 }
 
-
 class StopWatchSpring(
     private val clock: Clock // Inject a clock that has control
 ) {
